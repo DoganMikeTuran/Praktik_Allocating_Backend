@@ -124,4 +124,3 @@
 /Users/dmt1/Desktop/praktik/Backend_4/obj/Debug/netcoreapp3.1/Backend_4.csproj.CopyComplete
 /Users/dmt1/Desktop/praktik/Backend_4/obj/Debug/netcoreapp3.1/Backend_4.dll
 /Users/dmt1/Desktop/praktik/Backend_4/obj/Debug/netcoreapp3.1/Backend_4.pdb
-/Users/dmt1/Desktop/praktik/Backend_4/obj/Debug/netcoreapp3.1/Backend_4.csprojAssemblyReference.cache

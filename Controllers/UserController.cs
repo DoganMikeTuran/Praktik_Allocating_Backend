@@ -51,10 +51,10 @@ namespace Backend_4.Controllers
         [HttpPost]
         public void Post([FromBody]User user)
         {
-            using (DB_context db = new DB_context())
+            using (_context)
             {
-                db.User.Add(user);
-                db.SaveChanges();
+                _context.User.Add(user);
+                _context.SaveChanges();
             }
 
         }
