@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Backend_4.Controllers
 {
-    [Route("apitone/[controller]")]
+    [Route("api/[controller]")]
     public class UserController : Controller
     {
         private readonly DB_context _context;
