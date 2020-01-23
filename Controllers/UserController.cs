@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Backend_4.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("apitone/[controller]")]
     public class UserController : Controller
     {
         private readonly DB_context _context;
@@ -48,7 +48,7 @@ namespace Backend_4.Controllers
         }
 
         // POST api/values
-        [HttpPost]
+        [HttpPost("{post}")]
         public void Post([FromBody]User user)
         {
             using (_context)
@@ -66,7 +66,7 @@ namespace Backend_4.Controllers
         }
 
         // DELETE api/values/5
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}") ]
         public void Delete(int id)
         {
         }

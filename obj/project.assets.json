@@ -7122,11 +7122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dmt1/Desktop/praktik/Backend_4/Backend_4.csproj",
+      "projectUniqueName": "/Users/dmt1/Desktop/praktik_project/Backend_4/Backend_4.csproj",
       "projectName": "Backend_4",
-      "projectPath": "/Users/dmt1/Desktop/praktik/Backend_4/Backend_4.csproj",
+      "projectPath": "/Users/dmt1/Desktop/praktik_project/Backend_4/Backend_4.csproj",
       "packagesPath": "/Users/dmt1/.nuget/packages/",
-      "outputPath": "/Users/dmt1/Desktop/praktik/Backend_4/obj/",
+      "outputPath": "/Users/dmt1/Desktop/praktik_project/Backend_4/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dmt1/.config/NuGet/NuGet.Config"
