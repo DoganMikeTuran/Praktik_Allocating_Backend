@@ -46,11 +46,16 @@ namespace Backend_4.Controllers
             //}
             return user;
         }
-
+        
+        
         // POST api/values
         [HttpPost("{post}")]
         public void Post([FromBody]User user)
         {
+            // Hvis user var DTO...
+            // ny indstans af bil f.eks. Car c = new Car();
+            // c.registernr = TotalDTO.reg
+            // man laver flere _context.XXX også savechanges til sidst 1 gang. Ellers må man gerne lave savechanges flere gange, hvor man bruger await til at håndtere hvad der bliver gemt først.. Eksempel hvis bilen har user id som foreign key, så skal user regisreres før bilen.
             using (_context)
             {
                 _context.User.Add(user);
